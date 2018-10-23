@@ -25,11 +25,11 @@ create table programs_offered(
 	duration int, 
 	degree_certificate_offered varchar(10));
 	
-insert into programs_scheduled values("CSE","Computer Science and Engg","70% marks in intermediate",4,"UG certificate");
-insert into programs_scheduled values("ECE","Electronics and Comm","70% marks in intermediate",4,"UG certificate");
-insert into programs_scheduled values("ICE","Instrumentation and Control Engg","70% marks in intermediate",4,"UG certificate");
-insert into programs_scheduled values("CHE","Chemical Engg","70% marks in intermediate",4,"UG certificate");
-insert into programs_scheduled values("MECH","Mechanical Engg","70% marks in intermediate",4,"UG certificate");
+insert into programs_offered values("CSE","Computer Science and Engg","70% marks in intermediate",4,"UG certificate");
+insert into programs_offered values("ECE","Electronics and Comm","70% marks in intermediate",4,"UG certificate");
+insert into programs_offered values("ICE","Instrumentation and Control Engg","70% marks in intermediate",4,"UG certificate");
+insert into programs_offered values("CHE","Chemical Engg","70% marks in intermediate",4,"UG certificate");
+insert into programs_offered values("MECH","Mechanical Engg","70% marks in intermediate",4,"UG certificate");
 
 create table location(
 	location_id int primary key auto_increment,
